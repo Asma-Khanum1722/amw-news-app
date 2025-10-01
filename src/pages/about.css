@@ -1,0 +1,59 @@
+.about-container {
+  background-color: #f8dbab;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 20px;
+  font-family: "Montserrat", serif;
+  color: rgb(28, 28, 28);
+}
+
+.about-heading {
+  font-size: 48px;
+  font-family: "Montserrat", serif;
+  margin-bottom: 10px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.about-sub {
+  font-family: "Poppins", serif;
+  font-size: 18px;
+  margin-bottom: 40px;
+  text-align: center;
+  color: black;
+}
+
+.about-content {
+  background: #fff;
+  border-radius: 20px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  padding: 30px 40px;
+  max-width: 800px;
+  text-align: center;
+  font-family: "Poppins", serif;
+  margin-bottom: 30px;
+}
+
+.about-content h2 {
+  font-size: 24px;
+  margin-bottom: 12px;
+  font-family: "Montserrat", serif;
+  font-weight: 700;
+}
+
+.about-content p {
+  font-size: 16px;
+  color: rgb(28, 28, 28);
+  line-height: 1.6;
+}
+
+.about-team {
+  margin-top: 20px;
+  font-family: "Poppins", serif;
+  font-size: 16px;
+  color: #333;
+  text-align: center;
+}

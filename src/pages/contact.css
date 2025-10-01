@@ -1,0 +1,92 @@
+.contact-container {
+  background-color: #f8dbab;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 20px;
+  font-family: "Montserrat", serif;
+  color: rgb(28, 28, 28);
+}
+
+.contact-heading {
+  font-size: 48px;
+  font-family: "Montserrat", serif;
+  margin-bottom: 10px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.contact-sub {
+  font-family: "Poppins", serif;
+  font-size: 18px;
+  margin-bottom: 40px;
+  text-align: center;
+  color: black;
+}
+
+.contact-details {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  margin-bottom: 40px;
+  flex-wrap: wrap;
+}
+
+.contact-card {
+  background: #fff;
+  border-radius: 20px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  padding: 30px 40px;
+  text-align: center;
+  min-width: 220px;
+  font-family: "Poppins", serif;
+}
+
+.contact-card h2 {
+  font-size: 20px;
+  margin-bottom: 8px;
+  font-family: "Montserrat", serif;
+  font-weight: 700;
+}
+
+.contact-card p {
+  font-size: 16px;
+  color: rgb(28, 28, 28);
+}
+
+.contact-social {
+  margin-top: 20px;
+  font-family: "Poppins", serif;
+  font-size: 16px;
+  display: flex;
+  gap: 18px;
+  align-items: center;
+  justify-content: center;
+}
+
+.amw-btn.contact-link {
+  width: auto;
+  min-width: 120px;
+  padding: 8px 24px;
+  background: linear-gradient(90deg, #1c1c1c 0%, #00bcd4 100%);
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  font-family: "Montserrat", serif;
+  font-weight: 600;
+  cursor: pointer;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.10);
+  transition: 0.3s;
+  margin: 0 8px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.amw-btn.contact-link:hover {
+  background: linear-gradient(90deg, #00bcd4 0%, #1c1c1c 100%);
+  color: #fff;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.15);
+}
