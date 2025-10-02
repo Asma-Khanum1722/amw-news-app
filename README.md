@@ -1,16 +1,32 @@
-# React + Vite
+# Authentic Media Wire - News App (React + Vite)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is the **Authentic Media Wire (AMW) News App**, built with **React.js** and **Vite**.  
+Stay updated with the latest and trending news articles, and explore stories that matter.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Requirements
 
-## React Compiler
+Before you begin, make sure you have these installed:
 
-The React Compiler is not enabled on this template. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- [Git](https://git-scm.com/downloads)  
+- [Visual Studio Code](https://code.visualstudio.com/)  
+- [Node.js (LTS version recommended)](https://nodejs.org/en/download/)  
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### HOW TO RUN THE PROJECT?
+
+ Clone the Repository Open Command Prompt / Terminal and run: git clone https://github.com//.git cd
+ Open in VS Code:  
+ 
+ - Open Visual Studio Code 
+ - Go to File > Open Folder... 
+ - Select the cloned folder
+
+Install Dependencies Inside the project folder,
+-run: npm install
+
+Start the Development Server Run: npm run dev Vite will start a local server and show a URL in the terminal (usually): http://localhost:5173
+
+Open this link in your browser to use the News App.
