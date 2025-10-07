@@ -148,3 +148,30 @@
 .read-more:hover {
   color: #0056b3;
 }
+
+.amw-btn {
+  width: 300px !important;
+  padding: 12px 0;
+  background: linear-gradient(90deg, #1c1c1c 0%, #00bcd4 100%);
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  font-size: 18px;
+  font-family: "Montserrat", serif;
+  font-weight: 700;
+  letter-spacing: 1px;
+  cursor: pointer;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.10);
+  transition: 0.3s;
+  margin-bottom: 30px !important;
+  text-decoration: none;
+  /* display: inline-block; */
+}
+
+.amw-btn:hover {
+  background: linear-gradient(90deg, #00bcd4 0%, #1c1c1c 100%);
+  color: #fff;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.18);
+  transform: translateY(-2px) scale(1.03);
+}
+
