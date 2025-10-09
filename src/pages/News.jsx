@@ -80,6 +80,7 @@ const News = () => {
           window.location.reload();
         }}
         className="amw-btn"
+        disabled
       >
         Refresh News
       </button>
